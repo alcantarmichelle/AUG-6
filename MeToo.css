@@ -1,0 +1,34 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.banner {
+    /* The image used */
+    background-image: url("file:///C:/Users/Girls%20Who%20Code/Desktop/Lovement%20Project/photos/download.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+iframe {
+  height: 600px;
+  width: 500px;
+  margin-left: 5;
+}
